@@ -1,0 +1,114 @@
+{
+    "1Y4ZdPOOgCUhBcKZOrUFiS": {
+        "id": "1Y4ZdPOOgCUhBcKZOrUFiS",
+        "name": "Lip Gloss",
+        "artist": "Lil Mama",
+        "attributes": [
+            61,
+            87,
+            94,
+            60,
+            100
+        ],
+        "score": 80.4,
+        "vibe": "Party"
+    },
+    "1D066zixBwqFYqBhKgdPzp": {
+        "id": "1D066zixBwqFYqBhKgdPzp",
+        "name": "Fergalicious",
+        "artist": "Fergie",
+        "attributes": [
+            90,
+            58,
+            83,
+            100,
+            70
+        ],
+        "score": 80.2,
+        "vibe": "Party"
+    },
+    "6Rb0ptOEjBjPPQUlQtQGbL": {
+        "id": "6Rb0ptOEjBjPPQUlQtQGbL",
+        "name": "Hotel Room Service",
+        "artist": "Pitbull",
+        "attributes": [
+            85,
+            62,
+            78,
+            100,
+            70
+        ],
+        "score": 79.0,
+        "vibe": "Car Jams"
+    },
+    "4cluDES4hQEUhmXj6TXkSo": {
+        "id": "4cluDES4hQEUhmXj6TXkSo",
+        "name": "What Makes You Beautiful",
+        "artist": "One Direction",
+        "attributes": [
+            72,
+            78,
+            88,
+            100,
+            70
+        ],
+        "score": 81.6,
+        "vibe": "Party"
+    },
+    "6FLwmdmW77N1Pxb1aWsZmO": {
+        "id": "6FLwmdmW77N1Pxb1aWsZmO",
+        "name": "Only Time",
+        "artist": "Enya",
+        "attributes": [
+            41,
+            24,
+            21,
+            10,
+            30
+        ],
+        "score": 25.2,
+        "vibe": "Quiet"
+    },
+    "47SMgFonYypizibdQ8P4r1": {
+        "id": "47SMgFonYypizibdQ8P4r1",
+        "name": "Baba Yetu",
+        "artist": "Peter Hollens",
+        "attributes": [
+            43,
+            45,
+            22,
+            10,
+            40
+        ],
+        "score": 32.0,
+        "vibe": "Quiet"
+    },
+    "5Y9Hqg5Z3EHUDDwd54FDQb": {
+        "id": "5Y9Hqg5Z3EHUDDwd54FDQb",
+        "name": "Fields Of Gold",
+        "artist": "Sting",
+        "attributes": [
+            64,
+            30,
+            34,
+            80,
+            50
+        ],
+        "score": 51.6,
+        "vibe": "Kickback"
+    },
+    "0k664IuFwVP557Gnx7RhIl": {
+        "id": "0k664IuFwVP557Gnx7RhIl",
+        "name": "Juice",
+        "artist": "Lizzo",
+        "attributes": [
+            76,
+            88,
+            84,
+            100,
+            60
+        ],
+        "score": 81.6,
+        "vibe": "Party"
+    }
+}

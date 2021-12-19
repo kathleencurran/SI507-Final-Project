@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8"/>
+    <title>Results</title>
+</head>
+<body>
+<h2>You said that you thought your Playlist <b>"{{playlistName}}"</b> had a vibe of {{vibe}}</h2>
+
+    <p>It has {{length}} songs and a score of <b>{{score}}</b></p>
+
+    <p>We have aggregated the data from your playlist and have determined it has a vibe of <b>{{scoredVibe}}</b></p>
+
+
+
+    {% if vibe == scoredVibe %}
+        <p>Happy listening!</p>
+    {% else %}
+        {% if vibe == 'Quiet'%}
+            <p> A quiet playlist is {{quiet_def}}</p>
+            <p>Here's a recommendation to make your playlist more similar to your preferred vibe:
+            {{recommendation}}
+            </p>
+        {% elif vibe == 'Kickback'%}
+            <p>You would play a kickback playlist if you want to {{kickback_def}}</p>
+            <p>Here's a recommendation to make your playlist more similar to your preferred vibe:
+            {{recommendation}}
+            </p>
+
+        {% elif vibe == 'Car Jams'%}
+            <p>Car jams are usually for {{car_jam_def}}, especially in the car</p>
+                <p>Here's a recommendation to make your playlist more similar to your preferred vibe:
+            {{recommendation}}
+            </p>
+        {% elif vibe == 'Party'%}
+            <p>A song on a party playlist would be {{party_def}}</p>
+                <p>Here's a recommendation to make your playlist more similar to your preferred vibe:
+            {{recommendation}}
+            </p>
+        {% endif %}
+
+        <p><a href="/"><b><-- Go Back</b></a></p>
+    {% endif %}
+
+
+
+
+</body>
+</html>

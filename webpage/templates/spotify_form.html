@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8"/>
+    <title>HTML Forms Demo</title>
+</head>
+
+<body>
+    <h1>Hello, Welcome to Vibe Check!</h1>
+
+    <form action="/handle_form" method="POST">
+
+        <h3>Enter the URL of the spotify playlist you want to check</h3>
+        <input type="text" style="width: 20rem" name="playlist-url" value="" >
+
+        <h3>What's the vibe you're going for?</h3>
+
+        <div id="vibe-radio">
+            <input type="radio" name="vibe" value="Party">Party<br/>
+            <input type="radio" name="vibe" value="Car Jams">Car Jams<br/>
+            <input type="radio" name="vibe" value="Kickback">Kickback<br/>
+            <input type="radio" name="vibe" value="Quiet">Quiet<br/>
+        </div>
+<br>
+        <input type="submit" id="submit-playlist" value="Check Vibe">
+
+    </form>
+
+
+</body>
+</html>
