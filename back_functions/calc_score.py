@@ -1,3 +1,5 @@
+# comment
+
 def calc_tempo(tempo):
     new_tempo = 0
     if tempo < 70:
